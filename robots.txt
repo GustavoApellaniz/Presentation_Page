@@ -1,0 +1,7 @@
+# Note: crawlers only read robots.txt at the domain root
+# (https://gustavoapellaniz.github.io/robots.txt). This file takes effect
+# if the site moves to the GustavoApellaniz.github.io repository.
+User-agent: *
+Allow: /
+
+Sitemap: https://gustavoapellaniz.github.io/Presentation_Page/sitemap.xml

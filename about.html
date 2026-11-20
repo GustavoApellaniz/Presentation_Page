@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · Gustavo Fraga Apellaniz</title>
+  <meta name="description" content="About Gustavo Fraga Apellaniz: from mechanical engineering technician to Computer Science and an MSc in Agricultural &amp; Food Data Management at UniLaSalle Rouen.">
+  <meta name="author" content="Gustavo Fraga Apellaniz">
+  <meta name="theme-color" content="#050507">
+  <link rel="canonical" href="https://gustavoapellaniz.github.io/Presentation_Page/about.html">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Gustavo Fraga Apellaniz">
+  <meta property="og:title" content="About · Gustavo Fraga Apellaniz">
+  <meta property="og:description" content="From machine diagnostics to data and software: my path, timeline, certificates and languages.">
+  <meta property="og:url" content="https://gustavoapellaniz.github.io/Presentation_Page/about.html">
+  <meta property="og:image" content="https://gustavoapellaniz.github.io/Presentation_Page/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gustavo Fraga Apellaniz, Software Engineer and Data Analyst">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About · Gustavo Fraga Apellaniz">
+  <meta name="twitter:description" content="From machine diagnostics to data and software: my path, timeline, certificates and languages.">
+  <meta name="twitter:image" content="https://gustavoapellaniz.github.io/Presentation_Page/assets/img/og-image.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/profile.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="module" src="js/main.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://gustavoapellaniz.github.io/Presentation_Page/about.html",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Gustavo Fraga Apellaniz",
+      "jobTitle": "Software Engineering / Data Analyst",
+      "email": "mailto:gustavoapellaniz0@gmail.com",
+      "url": "https://gustavoapellaniz.github.io/Presentation_Page/",
+      "image": "https://gustavoapellaniz.github.io/Presentation_Page/assets/img/profile.jpg",
+      "address": { "@type": "PostalAddress", "addressLocality": "Rouen", "addressCountry": "FR" },
+      "knowsLanguage": ["pt", "en", "fr"],
+      "sameAs": [
+        "https://github.com/GustavoApellaniz",
+        "https://linkedin.com/in/gustavoapellaniz"
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- ===================== Navbar ===================== -->
+  <header class="nav">
+    <nav class="container nav__inner" aria-label="Main">
+      <a class="nav__logo" href="./" aria-label="Gustavo Fraga Apellaniz, home">G<span>F</span>A</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="./#projects">Projects</a></li>
+        <li><a class="nav__link" href="./#stack">Stack</a></li>
+        <li><a class="nav__link" href="about.html" aria-current="page">About</a></li>
+        <li><a class="nav__link" href="./#contact">Contact</a></li>
+        <!-- CV button: hidden until a CV without personal data is added (see index.html). -->
+        <li hidden><a class="btn btn--ghost btn--sm" href="assets/CV_Gustavo_Fraga_Apellaniz_EN.pdf" download>Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== Profile hero ===================== -->
+    <section class="container profile" aria-labelledby="about-title">
+      <div class="photo">
+        <div class="photo__frame">
+          <picture>
+            <source srcset="assets/img/profile.webp" type="image/webp">
+            <img src="assets/img/profile.jpg" width="320" height="320" alt="Portrait of Gustavo Fraga Apellaniz" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+        <span class="photo__tag" aria-hidden="true">ID_GFA</span>
+      </div>
+      <div>
+        <p class="hero__label" aria-hidden="true">&gt; whoami</p>
+        <h1 class="profile__name" id="about-title">Gustavo Fraga Apellaniz</h1>
+        <p class="profile__role">Software Engineering / Data Analyst</p>
+        <p class="profile__place">Rouen, France · from Brazil</p>
+        <p class="status-chip">
+          <span class="status-chip__dot" aria-hidden="true"></span>
+          Open to internships &amp; work-study · available now
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== Story ===================== -->
+    <section class="section" aria-labelledby="story-title">
+      <div class="container"><div class="story reveal">
+        <span class="section__label">// my story</span>
+        <h2 class="section__title" id="story-title">How I got here</h2>
+        <p>I started in mechanical engineering. As a technician student at IFSUL, from 2020 to 2023, I worked on machine diagnostics: collecting data from equipment, analysing it and turning it into preventive maintenance plans, which I then presented at a scientific event. It was my first real lesson in data: measurements only matter when they lead to a decision.</p>
+        <p>I wanted to build the tools myself, so I moved to Computer Science at Universidade La Salle in Canoas. Over six semesters I studied data structures, algorithms and software design, and started writing my own projects in Python, Java, C and SQL. Working in technical support at Declare Cripto, a crypto-asset tax compliance company, also taught me to explain technical details clearly to people who are not engineers.</p>
+        <p>Today I live in Rouen, France, where I'm doing an MSc in Agricultural &amp; Food Data Management at UniLaSalle and studying machine learning and deep learning. The thread has stayed the same: using data and software to solve real, physical-world problems. I'm now looking for an internship or work-study position where I can do that as part of a team.</p>
+      </div></div>
+    </section>
+
+    <!-- ===================== Timeline ===================== -->
+    <section class="section" aria-labelledby="timeline-title">
+      <div class="container">
+        <div class="reveal">
+          <span class="section__label">// timeline</span>
+          <h2 class="section__title" id="timeline-title">Education &amp; experience</h2>
+        </div>
+        <ol class="timeline reveal">
+          <li class="timeline__item is-current">
+            <span class="timeline__date">Sept 2026 – now</span>
+            <h3 class="timeline__title">MSc Agricultural &amp; Food Data Management (M1)</h3>
+            <p class="timeline__org">UniLaSalle Rouen, France</p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">2024 – Aug 2026</span>
+            <h3 class="timeline__title">Computer Science degree</h3>
+            <p class="timeline__org">Universidade La Salle, Canoas, Brazil
+              <small>6 semesters completed (on hold while studying in France)</small></p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Apr – Jul 2025</span>
+            <h3 class="timeline__title">Technical Support</h3>
+            <p class="timeline__org">Declare Cripto (crypto-asset tax compliance), Brazil
+              <small>Supported clients in assessing and regularizing crypto-asset taxes; liaison between accounting and technical teams.</small></p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">May – Nov 2022</span>
+            <h3 class="timeline__title">Academic Research Assistant</h3>
+            <p class="timeline__org">EKS-RAG / IFSUL, Brazil
+              <small>Machine diagnostics data, preventive maintenance plans, results presented at a scientific event.</small></p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">2020 – 2023</span>
+            <h3 class="timeline__title">Technician in Mechanical Engineering</h3>
+            <p class="timeline__org">IFSUL, Brazil</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== Certificates ===================== -->
+    <section class="section" aria-labelledby="certs-title">
+      <div class="container">
+        <div class="reveal">
+          <span class="section__label">// certificates</span>
+          <h2 class="section__title" id="certs-title">Certificates</h2>
+        </div>
+        <ul class="cert-grid reveal">
+          <li class="cert">
+            <svg class="cert__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg>
+            <div><p class="cert__name">IBM Data Science Professional Certificate</p><p class="cert__issuer">IBM / Coursera</p></div>
+          </li>
+          <li class="cert">
+            <svg class="cert__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg>
+            <div><p class="cert__name">CS50</p><p class="cert__issuer">Harvard</p></div>
+          </li>
+          <li class="cert">
+            <svg class="cert__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg>
+            <div><p class="cert__name">Data Science Essentials with Python</p><p class="cert__issuer">Cisco</p></div>
+          </li>
+          <li class="cert">
+            <svg class="cert__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg>
+            <div><p class="cert__name">Python Essentials</p><p class="cert__issuer">Cisco</p></div>
+          </li>
+          <li class="cert">
+            <svg class="cert__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></svg>
+            <div><p class="cert__name">GitHub Foundations</p><p class="cert__issuer">GitHub</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== Languages + beyond code ===================== -->
+    <section class="section" aria-label="Languages and interests">
+      <div class="container two-col">
+        <div class="reveal">
+          <span class="section__label">// languages</span>
+          <h2 class="section__title">Languages</h2>
+          <ul class="plain-list">
+            <li><b>Portuguese</b> · <span>native</span></li>
+            <li><b>English</b> · <span>C1 (EF SET, 2026)</span></li>
+            <li><b>French</b> · <span>B1 and improving every day in Rouen</span></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <span class="section__label">// beyond code</span>
+          <h2 class="section__title">Beyond code</h2>
+          <ul class="plain-list">
+            <li><b>Programming</b> · <span>also my hobby: side projects are how I learn a new tool.</span></li>
+            <li><b>Video games</b> · <span>interactive software at its best: clear rules, fast feedback.</span></li>
+            <li><b>Books</b> · <span>the best way to slow down after a day of screens.</span></li>
+            <li><b>Movies</b> · <span>always open to a good recommendation.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section cta" id="contact" aria-labelledby="cta-title">
+      <div class="container reveal">
+        <span class="section__label">// next step</span>
+        <h2 class="section__title" id="cta-title">Let's build something</h2>
+        <p class="section__intro" style="margin-inline:auto">Internship, work-study or just a question about one of my projects: I'd be glad to hear from you.</p>
+        <button class="email-btn" type="button" data-copy="gustavoapellaniz0@gmail.com">
+          <span class="email-btn__address">gustavoapellaniz0@gmail.com</span>
+          <span class="email-btn__hint">click to copy</span>
+        </button>
+        <div class="cta__actions">
+          <a class="btn btn--primary" href="mailto:gustavoapellaniz0@gmail.com">Send an email</a>
+          <a class="btn btn--ghost" href="https://linkedin.com/in/gustavoapellaniz" rel="noopener" target="_blank">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+          <a class="btn btn--ghost" href="https://github.com/GustavoApellaniz" rel="noopener" target="_blank">GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+          <!-- CV downloads: hidden until a CV without personal data is added.
+               Put the PDFs in assets/ and remove "hidden" to show them. -->
+          <a class="btn btn--ghost" href="assets/CV_Gustavo_Fraga_Apellaniz_EN.pdf" download hidden>CV (English)</a>
+          <a class="btn btn--ghost" href="assets/CV_Gustavo_Fraga_Apellaniz_FR.pdf" download hidden>CV (Français)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Gustavo Fraga Apellaniz</p>
+      <p class="mono">// built with HTML, CSS &amp; caffeine</p>
+      <p><a href="privacy.html">Privacy policy</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

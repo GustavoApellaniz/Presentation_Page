@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- GFA monogram: clipped-corner tile with a neon purple border -->
+  <path d="M0 0h50l14 14v50H14L0 50z" fill="#050507"/>
+  <path d="M2 2h47l13 13v47H15L2 49z" fill="none" stroke="#9d4dff" stroke-width="3"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="21" fill="#e8e6f0" letter-spacing="1">G<tspan fill="#9d4dff">F</tspan>A</text>
+</svg>

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gustavo Fraga Apellaniz · Software Engineer &amp; Data Analyst</title>
+  <meta name="description" content="Portfolio of Gustavo Fraga Apellaniz, MSc student in Data Management at UniLaSalle Rouen. Data tools, AI assistants and Android apps built with Python, Kotlin and SQL.">
+  <meta name="author" content="Gustavo Fraga Apellaniz">
+  <meta name="theme-color" content="#050507">
+  <link rel="canonical" href="https://gustavoapellaniz.github.io/Presentation_Page/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gustavo Fraga Apellaniz">
+  <meta property="og:title" content="Gustavo Fraga Apellaniz · Software Engineer &amp; Data Analyst">
+  <meta property="og:description" content="Data tools, AI assistants and Android apps. MSc student in Data Management at UniLaSalle Rouen, France.">
+  <meta property="og:url" content="https://gustavoapellaniz.github.io/Presentation_Page/">
+  <meta property="og:image" content="https://gustavoapellaniz.github.io/Presentation_Page/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gustavo Fraga Apellaniz, Software Engineer and Data Analyst">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gustavo Fraga Apellaniz · Software Engineer &amp; Data Analyst">
+  <meta name="twitter:description" content="Data tools, AI assistants and Android apps. MSc student in Data Management at UniLaSalle Rouen, France.">
+  <meta name="twitter:image" content="https://gustavoapellaniz.github.io/Presentation_Page/assets/img/og-image.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <!-- Preload the two fonts used above the fold. -->
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Marks that JS runs, so scroll-reveal can hide content safely. -->
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="module" src="js/main.js"></script>
+
+  <!-- Structured data: who this site is about. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gustavo Fraga Apellaniz",
+    "jobTitle": "Software Engineering / Data Analyst",
+    "email": "mailto:gustavoapellaniz0@gmail.com",
+    "url": "https://gustavoapellaniz.github.io/Presentation_Page/",
+    "image": "https://gustavoapellaniz.github.io/Presentation_Page/assets/img/profile.jpg",
+    "address": { "@type": "PostalAddress", "addressLocality": "Rouen", "addressCountry": "FR" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "UniLaSalle Rouen" },
+      { "@type": "CollegeOrUniversity", "name": "Universidade La Salle" }
+    ],
+    "sameAs": [
+      "https://github.com/GustavoApellaniz",
+      "https://linkedin.com/in/gustavoapellaniz"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- ===================== Navbar ===================== -->
+  <header class="nav">
+    <nav class="container nav__inner" aria-label="Main">
+      <a class="nav__logo" href="./" aria-label="Gustavo Fraga Apellaniz, home">G<span>F</span>A</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#stack">Stack</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+        <!-- CV button: hidden until a CV without personal data is added.
+             To enable: put the PDF in assets/ (e.g. assets/CV_Gustavo_Fraga_Apellaniz_EN.pdf)
+             and remove the "hidden" attribute below. -->
+        <li hidden><a class="btn btn--ghost btn--sm" href="assets/CV_Gustavo_Fraga_Apellaniz_EN.pdf" download>Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== Hero ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="hero__label" aria-hidden="true">&gt; hello_world.init()<span class="caret"></span></p>
+
+        <div class="hero__name-wrap">
+          <h1 class="hero__name" id="hero-title">
+            <span class="sr-only">Gustavo Fraga Apellaniz</span>
+            <span class="decode" data-decode aria-hidden="true">Gustavo Fraga Apellaniz</span>
+          </h1>
+          <p class="hero__reflection" aria-hidden="true">Gustavo Fraga Apellaniz</p>
+        </div>
+
+        <p class="hero__role">
+          <span class="prefix" aria-hidden="true">// </span>
+          <span class="sr-only">Software Engineer, Data Analyst, ML &amp; AI enthusiast, Android app builder</span>
+          <span data-typewriter aria-hidden="true"
+                data-roles='["Software Engineer", "Data Analyst", "ML & AI enthusiast", "Android app builder"]'>Software Engineer</span><span class="cursor" aria-hidden="true">_</span>
+        </p>
+
+        <p class="hero__pitch">
+          <strong>MSc student in Data Management at UniLaSalle Rouen</strong> with a Computer Science background,
+          building data tools, AI assistants and Android apps.
+        </p>
+
+        <p class="status-chip">
+          <span class="status-chip__dot" aria-hidden="true"></span>
+          Open to internships &amp; work-study · available now · Rouen, France
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View my projects</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+          <ul class="icon-links">
+            <li>
+              <a class="icon-link" href="https://github.com/GustavoApellaniz" rel="noopener" target="_blank" aria-label="GitHub (opens in a new tab)">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="https://linkedin.com/in/gustavoapellaniz" rel="noopener" target="_blank" aria-label="LinkedIn (opens in a new tab)">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="mailto:gustavoapellaniz0@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="hero__trail" aria-hidden="true"></span>
+    </section>
+
+    <!-- ===================== Projects ===================== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="reveal">
+          <span class="section__label">// 01 · projects</span>
+          <h2 class="section__title" id="projects-title">Selected work</h2>
+          <p class="section__intro">Four projects that show how I work: a real problem, a small and testable solution, and honest notes on what is still missing.</p>
+        </div>
+
+        <ul class="projects-grid">
+          <!-- Harvest-AIsights -->
+          <li class="reveal">
+            <article class="card">
+              <div class="card__inner">
+                <div class="card__head">
+                  <div>
+                    <span class="card__index">01 / RAG · API</span>
+                    <h3 class="card__title">Harvest-AIsights</h3>
+                  </div>
+                </div>
+                <p class="card__text">Asking an LLM about commodity prices invites invented numbers. <strong>This API first retrieves the matching market records, then lets Gemini answer from them and returns the sources</strong> (file and row).</p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li class="tag">Python</li><li class="tag">FastAPI</li><li class="tag">Gemini</li><li class="tag">ChromaDB</li><li class="tag">Sentence Transformers</li><li class="tag">pytest</li><li class="tag">Docker</li>
+                </ul>
+                <details class="card__details">
+                  <summary>Details</summary>
+                  <ul>
+                    <li><b>What it does:</b> answers natural-language questions about 131 agricultural quotations (Euronext, CBOT, Argus and physical markets), with short per-session conversation memory.</li>
+                    <li><b>Key decisions:</b> each CSV row becomes a self-contained text record, embedded with multilingual-e5-small and stored in ChromaDB. Retrieved content is treated as untrusted data in the prompt.</li>
+                    <li><b>Quality:</b> retrieval measured with Hit@K and MRR; pytest suite with mocked embedding and LLM; Dockerfile and GitHub Actions CI.</li>
+                    <li><b>What I learned:</b> RAG is weak at aggregation, because the LLM only sees the top-K records. Exact statistics therefore come from a separate <code>/quotes/summary</code> endpoint.</li>
+                  </ul>
+                  <p class="card__note">Status: portfolio prototype, in active development.</p>
+                </details>
+                <div class="card__actions">
+                  <a class="btn btn--ghost btn--sm" href="https://github.com/GustavoApellaniz/harvest-AIsights" rel="noopener" target="_blank">Code<span class="sr-only"> for Harvest-AIsights on GitHub (opens in a new tab)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- UniScribe -->
+          <li class="reveal">
+            <article class="card">
+              <div class="card__inner">
+                <div class="card__head">
+                  <div>
+                    <span class="card__index">02 / Mobile · AI</span>
+                    <h3 class="card__title">UniScribe</h3>
+                  </div>
+                  <span class="badge">Android</span>
+                </div>
+                <p class="card__text">Taking notes while listening to a lecture is hard. <strong>UniScribe records the lecture and returns a title, a full transcript, a structured summary and key points.</strong></p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li class="tag">Kotlin</li><li class="tag">Jetpack Compose</li><li class="tag">Room</li><li class="tag">Firebase AI Logic</li><li class="tag">Gemini</li><li class="tag">PWA</li>
+                </ul>
+                <details class="card__details">
+                  <summary>Details</summary>
+                  <ul>
+                    <li><b>What it does:</b> a native Android app and a static web app (PWA). Record or upload audio, get study notes, keep a history on the device and export to <code>.txt</code>.</li>
+                    <li><b>Key decisions:</b> no server of my own and no API key in the clients. Both call Gemini through Firebase AI Logic, protected by App Check, and the response is constrained to a JSON schema.</li>
+                    <li><b>Android details:</b> a foreground service keeps recording with the screen off; the model and the recording limit can be changed with Remote Config.</li>
+                    <li><b>What I learned:</b> shipping takes more than code. A Play release needs signing, a Data safety form and a closed test with 12 testers for 14 days.</li>
+                  </ul>
+                  <p class="card__note">Status: code complete; device testing and the Google Play closed test are next.</p>
+                </details>
+                <div class="card__actions">
+                  <a class="btn btn--ghost btn--sm" href="https://github.com/GustavoApellaniz/Uniscribe" rel="noopener" target="_blank">Code<span class="sr-only"> for UniScribe on GitHub (opens in a new tab)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- ExcelFlow -->
+          <li class="reveal">
+            <article class="card">
+              <div class="card__inner">
+                <div class="card__head">
+                  <div>
+                    <span class="card__index">03 / Data · CLI</span>
+                    <h3 class="card__title">ExcelFlow</h3>
+                  </div>
+                </div>
+                <p class="card__text">Supplier spreadsheets arrive with different headers, languages and date formats. <strong>ExcelFlow cleans and validates them into one consolidated workbook, plus a report of every issue found.</strong></p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li class="tag">Python</li><li class="tag">pandas</li><li class="tag">openpyxl</li><li class="tag">pytest</li><li class="tag">GitHub Actions</li>
+                </ul>
+                <details class="card__details">
+                  <summary>Details</summary>
+                  <ul>
+                    <li><b>What it does:</b> a command-line pipeline: header detection → column mapping → cleaning → validation → Excel report and issues CSV.</li>
+                    <li><b>Key decisions:</b> column names are matched across French, Portuguese and English headers and small typos. Six validation rules, and every issue is traced to its file, Excel row, field and reason.</li>
+                    <li><b>Results:</b> on synthetic data with injected errors, 10,120 rows in 2.59 s (median) with 100% precision and recall for the implemented rules.</li>
+                    <li><b>What I learned:</b> a ground-truth dataset turns "it seems to work" into a measurable result.</li>
+                  </ul>
+                </details>
+                <div class="card__actions">
+                  <a class="btn btn--ghost btn--sm" href="https://github.com/GustavoApellaniz/ExcelFlow" rel="noopener" target="_blank">Code<span class="sr-only"> for ExcelFlow on GitHub (opens in a new tab)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- Noble Chess Clock -->
+          <li class="reveal">
+            <article class="card">
+              <div class="card__inner">
+                <div class="card__head">
+                  <div>
+                    <span class="card__index">04 / Mobile</span>
+                    <h3 class="card__title">Noble Chess Clock</h3>
+                  </div>
+                  <span class="badge">Android</span>
+                </div>
+                <p class="card__text">A chess game needs a fair, readable timer. <strong>This two-player clock lets each player tap their side to end the turn and start the opponent's time.</strong></p>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li class="tag">React Native</li><li class="tag">Expo</li><li class="tag">JavaScript</li>
+                </ul>
+                <details class="card__details">
+                  <summary>Details</summary>
+                  <ul>
+                    <li><b>What it does:</b> a setup screen with time presets (1 to 180 minutes per player) and an optional increment of up to 60 seconds per move, plus pause and resume.</li>
+                    <li><b>Key decisions:</b> a visual identity inspired by classic chess rooms (dark wood and aged gold), with high-contrast digits that stay easy to read.</li>
+                    <li><b>Tooling:</b> runs on an Android phone through Expo Go, with an EAS Build path prepared for a release build.</li>
+                    <li><b>What I learned:</b> state and timing logic in a mobile UI, and preparing an Expo project for an Android build.</li>
+                  </ul>
+                </details>
+                <div class="card__actions">
+                  <a class="btn btn--ghost btn--sm" href="https://github.com/GustavoApellaniz/Chess-Clock-App" rel="noopener" target="_blank">Code<span class="sr-only"> for Noble Chess Clock on GitHub (opens in a new tab)</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+        <!-- More projects: compact archive -->
+        <div class="archive reveal">
+          <h3 class="archive__title"><span class="mono" style="color:var(--muted)">$ ls</span> more-projects/</h3>
+          <ul class="archive__list">
+            <li class="archive__item">
+              <a class="archive__name" href="https://github.com/GustavoApellaniz/CS50P---HARVARD" rel="noopener" target="_blank">CS50P · Harvard</a>
+              <p class="archive__desc">Problem sets from Harvard's CS50P Python course, with pytest unit tests.</p>
+              <span class="archive__tags">Python · pytest</span>
+            </li>
+            <li class="archive__item">
+              <a class="archive__name" href="https://github.com/GustavoApellaniz/Car-Dealership-Management-System" rel="noopener" target="_blank">Car Dealership Management</a>
+              <p class="archive__desc">Menu-driven CLI that models manufacturers, models and cars with object-oriented Python.</p>
+              <span class="archive__tags">Python · OOP</span>
+            </li>
+            <li class="archive__item">
+              <a class="archive__name" href="https://github.com/GustavoApellaniz/Vehicle-Rental-Fleet-Manager" rel="noopener" target="_blank">Vehicle Rental Fleet Manager</a>
+              <p class="archive__desc">CLI to register, search, update and save a small rental fleet to a text file.</p>
+              <span class="archive__tags">Python · File I/O</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Stack ===================== -->
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="reveal">
+          <span class="section__label">// 02 · stack</span>
+          <h2 class="section__title" id="stack-title">Tools I work with</h2>
+          <p class="section__intro">The languages and tools behind the projects above, from coursework and from code I have shipped to GitHub.</p>
+        </div>
+        <div class="stack-grid reveal">
+          <div class="stack-group">
+            <h3 class="stack-group__title">Languages</h3>
+            <ul class="chip-list">
+              <li class="chip">Python</li><li class="chip">SQL</li><li class="chip">C</li><li class="chip">C++</li><li class="chip">Java</li><li class="chip">JavaScript</li><li class="chip">R</li><li class="chip">HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <h3 class="stack-group__title">Data &amp; AI</h3>
+            <ul class="chip-list">
+              <li class="chip">pandas</li><li class="chip">NumPy</li><li class="chip">Matplotlib</li><li class="chip">Tableau</li><li class="chip">Jupyter</li><li class="chip">Power Query</li><li class="chip">FastAPI</li><li class="chip">RAG / LLMs</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <h3 class="stack-group__title">Databases</h3>
+            <ul class="chip-list">
+              <li class="chip">Oracle</li><li class="chip">MySQL</li><li class="chip">SQL Server</li><li class="chip">ChromaDB</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <h3 class="stack-group__title">Tools</h3>
+            <ul class="chip-list">
+              <li class="chip">Git/GitHub</li><li class="chip">GitHub Actions</li><li class="chip">VS Code</li><li class="chip">PyCharm</li><li class="chip">RStudio</li><li class="chip">Linux/WSL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Short about ===================== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container"><div class="teaser reveal">
+        <span class="section__label">// 03 · about</span>
+        <h2 class="section__title" id="about-title">From machines to data</h2>
+        <p>I started as a mechanical engineering technician, collecting data from machines to plan their maintenance. That pulled me into Computer Science, and now into an MSc in Agricultural &amp; Food Data Management in France.</p>
+        <p>What connects it all: using data and software to solve real, physical-world problems.</p>
+        <a class="arrow-link" href="about.html">Read more about me →</a>
+      </div></div>
+    </section>
+
+    <!-- ===================== Contact ===================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container reveal">
+        <span class="section__label">// 04 · contact</span>
+        <h2 class="section__title" id="contact-title">Let's talk</h2>
+        <p class="section__intro">Looking for an intern or work-study student in data or software? I'm available now. Email is the fastest way to reach me.</p>
+        <button class="email-btn" type="button" data-copy="gustavoapellaniz0@gmail.com">
+          <span class="email-btn__address">gustavoapellaniz0@gmail.com</span>
+          <span class="email-btn__hint">click to copy</span>
+        </button>
+        <div class="contact__links">
+          <a class="btn btn--ghost btn--sm" href="mailto:gustavoapellaniz0@gmail.com">Send an email</a>
+          <a class="btn btn--ghost btn--sm" href="https://linkedin.com/in/gustavoapellaniz" rel="noopener" target="_blank">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+          <a class="btn btn--ghost btn--sm" href="https://github.com/GustavoApellaniz" rel="noopener" target="_blank">GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== Footer ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Gustavo Fraga Apellaniz</p>
+      <p class="mono">// built with HTML, CSS &amp; caffeine</p>
+      <p><a href="privacy.html">Privacy policy</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
